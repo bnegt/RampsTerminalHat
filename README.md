@@ -5,10 +5,13 @@ sockets, endstops and AUX-2 to 3.5 mm screw terminals. It is made for running ex
 step/dir drivers (e.g. Leadshine M542) with **grbl-Mega-5X** on an Arduino Mega, but works for
 any RAMPS setup where the Pololu-style driver modules are removed.
 
+Designed in **[PCBCraft](https://github.com/wdunn001/pcbcraft)**, an open-source EDA tool written in Rust.
+Open `hardware/RampsTerminalHat.pcbcraft` in PCBCraft to edit the design.
+
 > **This project was generated entirely with [Claude](https://claude.com/claude-code)**
 > (Claude Code, Claude Opus 5.5). The schematic, placement, routing, silkscreen, Gerbers,
-> fit template, BOM and this README were all produced by Claude driving the PCBCraft EDA tool
-> through MCP. The design has passed DRC but has **not yet been built and tested**. Check it
+> fit template, BOM and this README were all produced by Claude driving [PCBCraft](https://github.com/wdunn001/pcbcraft)
+> through its MCP server. The design has passed DRC but has **not yet been built and tested**. Check it
 > yourself before ordering.
 
 ![3D view](docs/board-3d.png)
@@ -92,7 +95,7 @@ The raw PCBCraft Gerber output, including the job file and drill table, is in [`
 
 | Path | Contents |
 |---|---|
-| `hardware/RampsTerminalHat.pcbcraft` | PCBCraft design file |
+| `hardware/RampsTerminalHat.pcbcraft` | [PCBCraft](https://github.com/wdunn001/pcbcraft) design file |
 | `gerber/` | Gerber X2 + Excellon output |
 | `fabrication/` | JLCPCB zip and BOM |
 | `fit-template/` | 3D-printable fit template and PDF |
