@@ -1,0 +1,132 @@
+{
+  "FilesAttributes": [
+    {
+      "FileFunction": "Component,L2,Bot",
+      "FilePolarity": "Positive",
+      "Path": "pcb-B.Cmp.gbr"
+    },
+    {
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive",
+      "Path": "pcb-B.Cu.gbr"
+    },
+    {
+      "FileFunction": "Soldermask,Bot",
+      "FilePolarity": "Negative",
+      "Path": "pcb-B.Mask.gbr"
+    },
+    {
+      "FileFunction": "Paste,Bot",
+      "FilePolarity": "Positive",
+      "Path": "pcb-B.Paste.gbr"
+    },
+    {
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive",
+      "Path": "pcb-B.SilkS.gbr"
+    },
+    {
+      "FileFunction": "Drillmap",
+      "FilePolarity": "Positive",
+      "Path": "pcb-DrillMap.gbr"
+    },
+    {
+      "FileFunction": "Profile,NP",
+      "FilePolarity": "Positive",
+      "Path": "pcb-Edge.gbr"
+    },
+    {
+      "FileFunction": "Component,L1,Top",
+      "FilePolarity": "Positive",
+      "Path": "pcb-F.Cmp.gbr"
+    },
+    {
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive",
+      "Path": "pcb-F.Cu.gbr"
+    },
+    {
+      "FileFunction": "Soldermask,Top",
+      "FilePolarity": "Negative",
+      "Path": "pcb-F.Mask.gbr"
+    },
+    {
+      "FileFunction": "Paste,Top",
+      "FilePolarity": "Positive",
+      "Path": "pcb-F.Paste.gbr"
+    },
+    {
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive",
+      "Path": "pcb-F.SilkS.gbr"
+    },
+    {
+      "FileFunction": "NonPlated,1,2,NPTH",
+      "FilePolarity": "Positive",
+      "Path": "pcb-NPTH.drl"
+    },
+    {
+      "FileFunction": "Plated,1,2,PTH",
+      "FilePolarity": "Positive",
+      "Path": "pcb-Plated.drl"
+    }
+  ],
+  "GeneralSpecs": {
+    "BoardThickness": 1.6,
+    "Finish": "HASL",
+    "LayerNumber": 2,
+    "ProjectId": {
+      "Name": "RAMPS 1.4 skruvplintkort"
+    },
+    "Size": {
+      "X": 84.5,
+      "Y": 80.0
+    }
+  },
+  "Header": {
+    "CreationDate": "2026-11-08T15:49:06+00:00",
+    "GenerationSoftware": {
+      "Application": "PCBCraft",
+      "Vendor": "Tangency Labs",
+      "Version": "0.1.0"
+    }
+  },
+  "MaterialStackup": [
+    {
+      "Name": "Top Silk Screen",
+      "Thickness": 0.02,
+      "Type": "Legend"
+    },
+    {
+      "Name": "Top Solder Mask",
+      "Thickness": 0.02,
+      "Type": "SolderMask"
+    },
+    {
+      "Name": "F.Cu",
+      "Thickness": 0.035,
+      "Type": "Copper"
+    },
+    {
+      "Material": "FR4",
+      "Name": "F.Cu/B.Cu",
+      "Thickness": 1.53,
+      "Type": "Dielectric"
+    },
+    {
+      "Name": "B.Cu",
+      "Thickness": 0.035,
+      "Type": "Copper"
+    },
+    {
+      "Name": "Bottom Solder Mask",
+      "Thickness": 0.02,
+      "Type": "SolderMask"
+    },
+    {
+      "Name": "Bottom Silk Screen",
+      "Thickness": 0.02,
+      "Type": "Legend"
+    }
+  ]
+}
