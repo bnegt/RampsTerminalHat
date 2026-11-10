@@ -82,9 +82,14 @@ it on your RAMPS before you order PCBs.
 
 ## Ordering PCBs
 
-[`fabrication/RampsTerminalHat-JLCPCB.zip`](fabrication/RampsTerminalHat-JLCPCB.zip) is ready to
-upload to JLCPCB or a similar fab. It contains Gerbers with Protel extensions and Excellon drill
-files.
+**Upload [`fabrication/RampsTerminalHat-JLCPCB.zip`](fabrication/RampsTerminalHat-JLCPCB.zip) as it is.**
+It contains every file JLCPCB needs, so you don't have to unpack it or add anything:
+- copper, solder mask and silkscreen for both sides
+- the board outline
+- the plated and non-plated drill files
+
+On jlcpcb.com, click *Order now* → *Add gerber file* and select the zip. The other fabs that
+accept Gerber zips (PCBWay, Aisler, …) work the same way.
 
 Order 2 layers, 1.6 mm, HASL, 1 oz. Check in the Gerber viewer that the outline is 84.5 × 80 mm
 and that the notch is there.
@@ -97,7 +102,7 @@ The raw PCBCraft Gerber output, including the job file and drill table, is in [`
 |---|---|
 | `hardware/RampsTerminalHat.pcbcraft` | [PCBCraft](https://github.com/wdunn001/pcbcraft) design file |
 | `gerber/` | Gerber X2 + Excellon output |
-| `fabrication/` | JLCPCB zip and BOM |
+| `fabrication/` | Complete upload zip for JLCPCB, and the BOM |
 | `fit-template/` | 3D-printable fit template and PDF |
 | `docs/` | Images |
 
